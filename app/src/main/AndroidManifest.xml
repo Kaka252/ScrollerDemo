@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".HorizontalScrollerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".VerticalScrollerActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
